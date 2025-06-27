@@ -66,5 +66,5 @@ http.createServer((req, res) => {
     }
     // LISTENING ON PORT 8080
 }).listen(process.env.PORT || 8080, "0.0.0.0", () => {
-    console.log("Listening on http://localhost:8080");
+    console.log("Listening on" + process.env.PORT);
 });
