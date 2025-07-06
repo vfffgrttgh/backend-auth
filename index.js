@@ -6,8 +6,8 @@ import crypto from "crypto";
 // DEFINITIONS
 const storedHashes = {
     q1: crypto.createHash("sha256").update("INTJ").digest("hex"),
-    q2: crypto.createHash("sha256").update("Snake").digest("hex"),
-    q3: crypto.createHash("sha256").update("Hyundai").digest("hex")
+    q2: crypto.createHash("sha256").update("Black Mamba").digest("hex"),
+    q3: crypto.createHash("sha256").update("Wagonar").digest("hex")
 };
 
 // SERVER CREATION
